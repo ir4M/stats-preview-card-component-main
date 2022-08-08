@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.text-accent {
+    color: hsl(277, 64%, 61%);
+}
+
+.bg-accent {
+    background-color: hsl(277, 64%, 61%);
+}
+
+#stats-preview-component {
+    width: 1110px;
+    height: 446px;
+    background-color: hsl(244, 38%, 16%);
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(0, 0%, 75%);
+}
+
+p span {
+    font-size: 1.6rem;
+    color: hsl(0, 0%, 100%);
+}
+
+#stats p {
+    font-size: 0.8rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#bg-image {
+    width: 540px;
+    background-size: cover;
+    background-color: hsl(277, 64%, 61%);
+    background-image: url("images/image-header-desktop.jpg");
+    background-blend-mode: multiply;
+}
+
+@media screen and (min-width: 1110px){
+    #stats-text {
+        width: 570px;
+    }
+}
+
+
