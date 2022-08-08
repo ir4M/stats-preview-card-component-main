@@ -38,7 +38,6 @@ p span {
 
 #bg-image {
     width: 540px;
-    background-size: cover;
     background-color: hsl(277, 64%, 61%);
     background-image: url("images/image-header-desktop.jpg");
     background-blend-mode: multiply;
@@ -48,6 +47,19 @@ p span {
     #stats-text {
         width: 570px;
     }
+}
+
+#stats-text {
+    padding: 64px 124px 64px 64px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a:hover {
+    color: hsl(277, 76%, 80%);
 }
 
 
